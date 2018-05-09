@@ -14,10 +14,9 @@ buildscript {
 
 ext {
 	versions = [
-			compileSdk        : 27,
-			targetSdk         : 27,
+			compileSdk        : 'android-P',
+			targetSdk         : 'P',
 			minSdk            : 14,
-			buildTools        : '27.0.3',
 			androidSupport    : '27.1.1',
 			androidSupportTest: '1.0.1'
 	]
